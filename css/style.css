@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(78, 190, 255);
+}
+
+#card-container {
+    border: 3px solid white;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 24px;
+    padding: 12px 48px;
+    text-align: center;
+}
+
+#card-title {
+    font-family: cursive;
+    color: white;
+}
+
+#new-mission-button {
+    border: 3px solid white;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 24px;
+    padding: 3px 12px;
+    text-align: center;
+    background-color: transparent;
+    color: white;
+}
